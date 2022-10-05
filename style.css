@@ -1,0 +1,221 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.left {
+  display: inline-block;
+  right: 88.7%;
+  color: white;
+  position: absolute;
+  text-align: center;
+  margin-top: -15px;
+  line-height: 19px;
+  line-height: 0em; 
+}
+nav {
+  margin-left: 450;
+}
+.mid {
+  display: block;
+  margin: 22px auto;
+  width: 48.85%;
+  padding: 5px;
+  height: 10px;
+  line-height: 1em;
+  position: relative;
+}
+.right {
+  position: absolute;
+  display: inline-block;
+  left: 83.7%;
+  top: 28px;
+  line-height: 0.5em;
+  text-decoration-color: white;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+nav a {
+  text-decoration: none;
+  padding: 4px; 
+  width:80px;
+  /* /* margin-top: 40px; */
+  word-spacing: 2pxpx;
+  text-align: center;
+  border-right: 0px solid #aae;
+  line-height: 0.5em;
+  padding: 6px;
+  color: white;
+  font-size: 17px;
+  width: 25%;
+  text-transform: normal;
+  font-size: 20px;
+  letter-spacing: normal;
+}
+
+.main {
+  height: 100px;
+  background-color: black;
+  padding-top: 40px;
+  width: 100%;
+  margin-right: 0%;
+
+  /*position: fixed*/
+}
+.contri{
+  width: 100%;
+}
+nav a:hover {
+  background: #a2b3a1;
+  color: #000;
+  /*text-transform: uppercase;
+	position: absolute;*/
+}
+@media (max-width: 900px) 
+{
+  .main{
+    width: 800px;
+  }
+  .end3{
+    display: none;
+  }
+  .end4 {
+    display: none;
+  }
+  .para{
+    display: none;
+  }
+  .mid nav{
+    display: none;
+  }
+  .right a{
+    margin-left: 280px;
+  }
+  .contri{
+    background-color: black;
+  }
+  .left{
+    margin-left: 40%;
+    padding-left: 30%;
+     /*color: #000; */
+    /*position: absolute;*/
+    padding-left: 5%;
+  }
+  .main{
+    background: black;
+  }
+  body{
+    max-width: 500px;
+  }
+  #images{
+    width: 800px;
+  }
+  .end2{
+    display: none;
+  }
+  .btn2{
+    margin-right: 300px;
+  }
+}
+.btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 0.5em;
+}
+.btn:hover {
+  background-color: green;
+  text-transform: uppercase;
+}
+.top {
+  margin-top: -13px;
+  margin-left: 80px;
+  font-size: 20px;
+}
+.end1 {
+  color: white;
+  margin-left: 70px;
+  /*padding-top: 60px;*/
+  display: inline-block;
+  border-color: white;
+  /*display: flex;*/
+  opacity: 0.3;
+}
+
+.container-end-1 {
+  margin-left: 30px;
+  position: relative;
+  display: block;
+  max-width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+}
+.end-1 {
+  color: white;
+  margin-left: 40px;
+  /*padding-top: 60px;*/
+  display: inline-block;
+  border-color: white;
+  /*display: flex;*/
+}
+
+.end-para {
+  opacity: 0.3;
+}
+
+.end2 {
+  color: white;
+  margin-left: 1130px;
+
+}
+.t1 {
+  text-decoration: bold;
+  font-size: 30px;
+}
+.btn2 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn2:hover {
+  background-color: darkred;
+}
+.end3 {
+  margin-left: 250px;
+  font-size: 45px;
+  color: #3c7909;
+}
+/*.blue-color {
+        color: #3c7909;
+    }
+*/
+.end:hover {
+  background-color: red;
+}
+.end4 {
+  font-size: 45px;
+}
+.end4:hover {
+  background-color: red;
+}
+/*@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: .813rem;
+  }
+}*/
